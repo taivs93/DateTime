@@ -8,7 +8,7 @@ import java.time.*;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
 public class Calendar {
-    private final PriorityQueue<Event> events = new PriorityQueue<>();
+    private PriorityQueue<Event> events = new PriorityQueue<>();
     public void addEvent(Event event){
         for (Event existedEvent : events){
             if (isOverLapped(event,existedEvent)){

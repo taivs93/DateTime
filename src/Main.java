@@ -12,8 +12,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    private static final Calendar calendar = new Calendar();
-    private static final Scanner scanner = new Scanner(System.in);
+    private static Calendar calendar = new Calendar();
+    private static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         boolean isInUsed = true;
         int choice;
